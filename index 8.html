@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roti Bakar Viral</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="90" tabindex="0">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-warning fw-bold d-flex align-items-center" href="#beranda">
+        <img src="assets/logo" alt="logo" width="40" height="40" class="d-inline-block align-text-top rounded-circle me-2" />
+        ROTI BAKAR VIRAL
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO / BERANDA (1 gambar + parallax) ===== -->
+  <section id="beranda" class="p-0">
+    <div class="hero-section">
+      <img src="assets/navbar" class="hero-bg-img" alt="Roti bakar premium topping melimpah" />
+      <div class="hero-overlay"></div>
+      <div class="container text-center py-5" data-aos="fade-up">
+        <h2 class="display-6 fw-bold text-warning mb-3">Roti Bakar Premium</h2>
+        <p class="lead text-white mb-4 fw-bold">Nikmati kelezatan roti bakar dengan topping melimpah</p>
+        <a href="#menu" class="btn btn-warning btn-lg fw-bold">Lihat Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG KAMI ===== -->
+  <section id="tentang" class="bg-light py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6" data-aos="fade-right" style="max-height:700px; overflow:hidden;">
+          <img src="assets/produk15" alt="Tentang Kami" class="d-block w-100 rounded-4 shadow-sm" style="object-fit:cover; height:450px" />
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <h2 class="text-brand fw-bold mb-3">Tentang Kami</h2>
+          <p>Roti Bakar Viral berawal dari kecintaan kami terhadap cemilan malam yang mengenyangkan dan lezat. Dibuat dengan bahan-bahan premium dan resep rahasia yang membuat roti kami memiliki tekstur garing di luar maupun di dalam.</p>
+          <p>Kami berkomitmen untuk terus menghadirkan inovasi rasa yang tidak hanya viral di media sosial, tapi juga benar-benar memanjakan lidah kamu!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-brand fw-bold mb-5" data-aos="fade-up">Menu Andalan Kami</h2>
+      <div class="row g-4 mb-4">
+
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="0">
+          <div class="card menu-card shadow-sm h-100">
+            <img src="assets/pro2" class="img-fluid rounded-top" alt="Coklat kacang berlimpah" style="width:100%; height:300px; object-fit:cover; object-position:center;" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-center fw-bold">Coklat Kacang Berlimpah</h5>
+              <h5 class="text-warning text-center fw-bold mt-auto">Rp. 25.000</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+          <div class="card menu-card shadow-sm h-100">
+            <img src="assets/pro3" class="img-fluid rounded-top" alt="Roti Viral" style="width:100%; height:300px; object-fit:cover; object-position:center;" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-center fw-bold">Roti Viral</h5>
+              <h5 class="text-warning text-center fw-bold mt-auto">Rp. 26.000</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="200">
+          <div class="card menu-card shadow-sm h-100">
+            <img src="assets/pro4" class="img-fluid rounded-top" alt="Roti Bakar Viral" style="width:100%; height:300px; object-fit:cover; object-position:center;" />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-center fw-bold">Roti Bakar Viral</h5>
+              <h5 class="text-warning text-center fw-bold mt-auto">Rp. 25.000</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERI ===== -->
+  <section id="galeri" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center text-brand fw-bold mb-5" data-aos="fade-up">Galeri Kami</h2>
+      <div class="row g-4">
+
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-delay="0">
+          <div class="card shadow-sm h-100 overflow-hidden gallery-card">
+            <img src="assets/pro2" class="img-fluid d-block w-100 rounded-top" alt="Coklat Lumer" style="height:300px; object-fit:cover; object-position:center;" />
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card shadow-sm h-100 overflow-hidden gallery-card">
+            <img src="assets/pro1" class="img-fluid d-block w-100 rounded-top" alt="Matcha Oreo" style="height:300px; object-fit:cover; object-position:center;" />
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card shadow-sm h-100 overflow-hidden gallery-card">
+            <img src="assets/pro3" class="img-fluid d-block w-100 rounded-top" alt="Beef Mozzarella" style="height:300px; object-fit:cover; object-position:center;" />
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-delay="0">
+          <div class="card shadow-sm h-100 overflow-hidden gallery-card">
+            <img src="assets/pro4" class="img-fluid d-block w-100 rounded-top" alt="Oreo Matcha" style="height:300px; object-fit:cover; object-position:center;" />
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card shadow-sm h-100 overflow-hidden gallery-card">
+            <img src="assets/produk14" class="img-fluid d-block w-100 rounded-top" alt="Roti Bakar Viral" style="height:300px; object-fit:cover; object-position:center;" />
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card shadow-sm h-100 overflow-hidden gallery-card">
+            <img src="assets/navbar3" class="img-fluid d-block w-100 rounded-top" alt="Roti Bakar Viral" style="height:300px; object-fit:cover; object-position:center;" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-brand fw-bold mb-5" data-aos="fade-up">Pertanyaan Sering Diajukan (FAQ)</h2>
+
+      <div class="accordion" id="faqAccordion" data-aos="fade-up">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1"
+              aria-expanded="true" aria-controls="faqCollapse1">
+              Apakah roti bakarnya bisa dipesan online?
+            </button>
+          </h2>
+          <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Tentu saja! Kami tersedia di GoFood, GrabFood, dan ShopeeFood. Anda juga bisa memesan langsung via WhatsApp.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2"
+              aria-expanded="false" aria-controls="faqCollapse2">
+              Buka dari jam berapa?
+            </button>
+          </h2>
+          <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Kami buka setiap hari mulai pukul 15.00 WIB hingga 23.00 WIB.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3"
+              aria-expanded="false" aria-controls="faqCollapse3">
+              Apakah bisa request topping custom?
+            </button>
+          </h2>
+          <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Bisa! Silakan hubungi kami langsung via WhatsApp untuk request topping sesuai selera kamu.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONI ===== -->
+  <section id="testimoni" class="bg-dark text-light py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5" data-aos="fade-up">Apa Kata Mereka?</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="p-4 bg-white text-dark rounded shadow h-100 d-flex flex-column testi-card">
+            <p class="fst-italic flex-grow-1">"Sumpah enak banget! Kejunya nggak pelit dan rotinya super empuk. Pantesan viral!"</p>
+            <h6 class="fw-bold mb-0">- Budi S.</h6>
+            <small class="text-warning">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </small>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-4 bg-white text-dark rounded shadow h-100 d-flex flex-column testi-card">
+            <p class="fst-italic flex-grow-1">"Rekomendasi dari teman, awalnya ragu tapi pas nyoba rasa matchanya juara banget."</p>
+            <h6 class="fw-bold mb-0">- Siti M.</h6>
+            <small class="text-warning">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </small>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-4 bg-white text-dark rounded shadow h-100 d-flex flex-column testi-card">
+            <p class="fst-italic flex-grow-1">"Tiap malam Ahad pasti selalu nyempetin beli ini. Varian beef mozzarellanya the best!"</p>
+            <h6 class="fw-bold mb-0">- Muh Anddi Alpian</h6>
+            <small class="text-warning">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section id="kontak" class="container py-5">
+    <h2 class="text-center text-brand fw-bold mb-5" data-aos="fade-up">Contact Us</h2>
+
+    <div class="row g-4 align-items-stretch">
+
+      <div class="col-lg-6" data-aos="fade-right">
+        <form id="contactForm" novalidate>
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan / Pertanyaan</label>
+            <textarea class="form-control" id="pesan" rows="4" placeholder="Tuliskan pesan Anda di sini...." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-warning w-100 fw-bold">Kirim Pesan</button>
+          <div id="formAlert" class="alert alert-success mt-3 d-none" role="alert">
+            Terima kasih! Pesan Anda telah terkirim.
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <div style="height:100%; min-height:380px;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.998!2d-122.084!3d37.421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sGoogleplex!5e0!3m2!1sen!2s!4v1618477596623!5m2!1sen!2s"
+            width="100%" height="100%" style="border:0; border-radius:12px;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center mt-5 gy-4">
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="0">
+        <i class="bi bi-telephone-fill fs-4 text-primary"></i>
+        <p class="mb-0">+62 08 8208-1363-737</p>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+        <i class="bi bi-envelope-fill fs-4 text-primary"></i>
+        <p class="mb-0">info@Rotibakarviral.com</p>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
+        <i class="bi bi-instagram fs-4 text-primary"></i>
+        <p class="mb-0">@VIKRAM SINIAGA</p>
+      </div>
+      <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
+        <i class="bi bi-facebook fs-4 text-primary"></i>
+        <p class="mb-0">Facebook</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-dark text-center text-white py-4">
+    <div class="container">
+      <h5 class="fw-bold text-warning mb-3">ROTI BAKAR VIRAL</h5>
+      <div class="mb-3">
+        <p>Roti Bakar Viral merupakan usaha kuliner yang menghadirkan roti bakar viral dengan rasa yang kekinian, pilihan topping yang beragam, harga terjangkau dan pilihan menarik.</p>
+      </div>
+      <p class="mb-0 small text-muted">&copy; 2026 Roti Bakar Viral. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Tombol WhatsApp mengambang -->
+  <a href="https://wa.me/6208820813637" target="_blank" class="whatsapp-float" aria-label="Chat WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
